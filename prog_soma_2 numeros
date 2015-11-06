@@ -1,0 +1,17 @@
+// Programa que soma dois números.
+
+#include<stdio.h>
+#include<conio.h>
+
+int somar (int a,int b){
+	
+	return a+b;
+	
+}
+
+int main(){
+	
+	printf("%d",somar(1,2));
+	getch();
+	
+}
